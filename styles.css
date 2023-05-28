@@ -1,48 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap');
+
+html {
+	--navbar-color: #0f1526;
+}
+
 * {
+	box-sizing: border-box;
 	padding: 0; margin: 0;
-	font-family: "Hack";
-	text-decoration: none;
-	border: none;
+	font-family: "Roboto", sans-serif;
+	/*border: 1px solid greenyellow;*/
 }
 
 body {
-	background-color: #120e1f;
-}
-a {
-	color: #38a7f1;
+	background-color: #0f1526;
 }
 
+header {
+	background-color: var(--navbar-color);
+}
+
+.inline-anchor {
+	text-decoration: none;
+	color: #008cff; font-weight: bold;
+}
+
+.section-heading {
+	font-family: "Oxanium";
+	display: block;
+	margin-top: 2.5rem; margin-bottom: 2rem;
+	font-size: 40px;
+}
+
+.section-paragraph {
+	color: white;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.6rem;
+}
+/*----------------------------------------*/
+
+/* Title Section */
+
 .title-section {
-	display: flex; height: 40rem;
-	background-color: #0f0f0f;
+	background-color: #202945;
+	height: 27rem;
+	display: flex;
 	justify-content: center; align-items: center;
-	flex-direction: column;
+}
+
+.title-section div {
+	position: relative;
+	left: -100px;
+}
+
+.profile-pic {
+	width: 14%;
+	border-radius: 50%;
+	margin-right: 2rem;
+	position: relative;
+	left: -100px;
 }
 
 .title {
-	display: flex;
-	background: linear-gradient(#22c6c2, #23a3db);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size: 5rem;
-	margin-top: 2rem;
-}
-
-.profile-picture {
-	display: flex;
-	height: 225px; width: 225px;
-	border-radius: 100%;
-	box-shadow: 5px 5px 25px 5px;
-}
-.about-me {
-	border: 1px solid black;
-	padding: 25px;
+	font-family: "Oxanium";
 	color: white;
-	background-color: #171721;
+	font-size: 64px;
 }
 
-.heading {
-	font-size: 26px;
-	margin-bottom: 0.5rem;
+.title-subtext {
+	font-family: "Oxanium";
+	color: white;
+	font-size: 35px;
+	margin-top: 0.2rem;
+}
+
+
+/*----------------------------------------*/
+
+/* About Me & Image Gallery */
+
+.about-me, .image-section {
+	padding: 1.5rem 20%;
+}
+
+/* Image Gallery */
+
+.interest-images {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.interest-image {
+	align-self: center;
+	border-radius:3%;
+	margin-right: 1rem;
+	border: 5px solid #495fa1;
+}
+
+.interest-images::after {
+	margin-right: 0;
+}
+
+
+.mandalorian-img {
+	width: 25%;
+}
+
+.baby-yoda-img {
+	width: 18.9%;
+}
+
+.mc-birch-forest-img {
+	width: 24.2%;
+}
+
+.tony-stark-img {
+	width: 21%;
 }
