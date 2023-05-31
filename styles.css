@@ -25,6 +25,15 @@ header {
 	color: #008cff; font-weight: bold;
 }
 
+
+/*----------------------------------------*/
+
+/* Section Styling */
+
+.section {
+	padding: 1.5rem 20%;
+}
+
 .section-heading {
 	font-family: "Oxanium";
 	display: block;
@@ -38,6 +47,8 @@ header {
 	text-align: justify;
 	line-height: 1.6rem;
 }
+
+
 /*----------------------------------------*/
 
 /* Title Section */
@@ -77,12 +88,6 @@ header {
 
 
 /*----------------------------------------*/
-
-/* About Me & Image Gallery */
-
-.about-me, .image-section {
-	padding: 1.5rem 20%;
-}
 
 /* Image Gallery */
 
