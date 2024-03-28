@@ -1,8 +1,6 @@
-**🪦RIP WebsiteV1 (2023 - 2024)**
+<h1 align="center"><b>🪦RIP WebsiteV1 (2023 - 2024)</b></h1>
 
---------------------------------------------------
-
-
+<br>
 Why did you waste your time checking this?
 
 Anyway, this was the first website I made. Everything was handcoded.
