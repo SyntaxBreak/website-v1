@@ -1,8 +1,9 @@
-ARCHIVED: This Website is no longer active. 
+**🪦RIP WebsiteV1 (2023 - 2024)**
+
+--------------------------------------------------
 
 
-Hi! This is my (pretty mid) website! Hope you like it!
+Why did you waste your time checking this?
 
-First one I've ever made!
-
-Fun Fact: Took my 4 days to get the dns correct
+Anyway, this was the first website I made. Everything was handcoded.
+(It took my 4 days to get the DNS correct by the way)
